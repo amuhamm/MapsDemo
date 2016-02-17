@@ -18,6 +18,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     // Test update from GitHub.
     // *Performance update*
 
+
     private GoogleMap mMap;
 
     @Override
@@ -51,6 +52,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Move the camera instantly to location with a zoom of 17.
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mcmaster, 17));
+
+        //new branch activity
+        Marker mcMaster_marker = mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(43.261926, -79.919182))
+                .title("McMaster University"));
 
 
     }
