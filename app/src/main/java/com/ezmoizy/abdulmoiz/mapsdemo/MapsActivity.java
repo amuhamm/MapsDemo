@@ -55,6 +55,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Marker marker = mMap.addMarker(new MarkerOptions()
                 .position(new LatLng(43.261926, -79.919182))
                 .title("McMaster University"));
+                
+        // Mariyam was not here.
 
 
 
