@@ -17,6 +17,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     // Test update from Android Studio.
     // Test update from GitHub.
     // *Performance update*
+    // *Performance update 16/02/2016*
 
     private GoogleMap mMap;
 
