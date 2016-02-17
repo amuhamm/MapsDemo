@@ -15,8 +15,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     // Test update from Android Studio.
-    // Test update from GitHub.
-    // *Performance update*
+
 
     private GoogleMap mMap;
 
@@ -52,14 +51,11 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Move the camera instantly to location with a zoom of 17.
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mcmaster, 17));
 
-        //new branch activity
-        Marker marker = mMap.addMarker(new MarkerOptions()
-                .position(new LatLng(43.261926, -79.919182))
-                .title("McMaster University"));
+//        Marker marker = mMap.addMarker(new MarkerOptions()
+//                .position(new LatLng(43.261926, -79.919182))
+//                .title("McMaster University"));
 
-        Marker wb_marker = mMap.addMarker(new MarkerOptions()
-                .position(new LatLng(43.568687, -79.744079))
-                .title("Winston Churchill & Britannia"));
+
 
 
     }
