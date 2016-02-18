@@ -52,15 +52,22 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mcmaster, 17));
 
         //made a new marker centered on McMaster
-        Marker marker = mMap.addMarker(new MarkerOptions()
+        Marker mcmarker = mMap.addMarker(new MarkerOptions()
                 .position(new LatLng(43.261926, -79.919182))
                 .title("McMaster University"));
-                
-        // Mariyam was not here.
-        // Moiz was not here.
 
 
+        /*
 
+        Create branch -> make changes -> commit to local -> push to remote
+
+        Open master branch -> VCS -> Git -> Merge changes... -> Select appropriate branch -> merge
+
+         */
+
+        Marker uofmarker = mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(43.662653, -79.396356))
+                .title("University of Toronto"));
 
     }
 }
