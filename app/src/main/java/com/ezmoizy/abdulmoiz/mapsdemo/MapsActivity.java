@@ -49,7 +49,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Marker mcmaster_marker = mMap.addMarker(new MarkerOptions().position(mcmaster).title("McMaster University"));
 
         // Move the camera instantly to location with a zoom of 17.
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mcmaster, 17));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mcmaster, 10));
 
         //made a new marker centered on McMaster
         Marker mcmarker = mMap.addMarker(new MarkerOptions()
